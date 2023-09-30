@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+.random1{
+    /* display: flex; */
+    background-color: #00a2ff8f;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.main{
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.random1 nav{
+    padding: 34px;
+}
+
+.random1 nav ul li{
+    /* display: flex;
+    flex-direction: row; */
+    list-style: none;
+}
+/* style{
+    padding: 304px;
+} */
+
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+}
