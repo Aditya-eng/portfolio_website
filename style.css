@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 
-.random1{
+body{
     /* display: flex; */
-    background-color: #00a2ff8f;
+    /* background-color: #dedfe4d5;
+     */
+     /* background-image: url("img5.jpg"); */
+     /* background-size: 500px; */
     font-family: 'Pixelify Sans', cursive;
 }
 
@@ -15,15 +18,26 @@
     font-family: 'Pixelify Sans', cursive;
 }
 
-.random1 nav{
+nav{
     padding: 34px;
 }
 
-.random1 nav ul li{
+nav ul li {
     /* display: flex;
     flex-direction: row; */
     list-style: none;
+    margin: 2em;
 }
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: blue;
+}
+
 /* style{
     padding: 304px;
 } */
@@ -31,4 +45,76 @@
 ul{
     display: flex;
     flex-wrap: nowrap;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    /* background-color: aquamarine; */
+    background-image: url("img3.jpg");
+    /* background-size: 6000px;
+     */
+     background-position: right;
+    border-radius: 40px;
+    font-size: 1.3em;
+}
+
+.left{
+    font-size: 2rem;
+}
+/* .right{
+    font-size: ;
+} */
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+
+.firstsection div{
+    width: 30%;
+}
+
+.leftsection{
+    width: 80%;
+}
+
+.leftsection img{
+    width: 80%;
+    /* margin: 50px 0; */
+
+}
+
+.rightsection{
+    /* background-color: aqua; */
+    font-size: 3rem;
+    padding: -10px;
+    /* margin: 80px; */
+}
+
+.color1{
+    color: blue;
+}
+
+.left a{
+    text-decoration: none;
+    color: black;
+
+}
+.left a:hover{
+    color: blue;
+    font-size: 1.05em;
+}
+
+.leftsection img:hover{
+    color: blue;
+    size: 1.05em;
+}
+
+#element{
+    color: blue;
 }

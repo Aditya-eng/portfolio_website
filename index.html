@@ -1,39 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
-  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
-</style>
+        @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+    </style>
 
 </head>
+
 <body>
-<div class="container">
+    <header>
+        <!-- <div class="topbar"> -->
 
-    <div class="random1">
-        ADITYA'S PORTFOLIO
-        <nav>    
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Education</li>
-            </ul>
+        <nav>
+            <div class="left"><a href="\">ADITYA'S PORTFOLIO</a></div>
+            <div class="right">
+                <ul>
+                    <li><a href="\">Home</a></li>
+                    <li><a href="\">About</a></li>
+                    <li><a href="\">Projects</a></li>
+                    <li><a href="\">Education</a></li>
+                </ul>
+            </div>
         </nav>
-    </div>
 
-    <div class="main">
+
+        <!-- <div class="main">
         RANDOM TEXT RANDOM TEXT RANDOM TEXT RANDOM TEXT RANDOM TEXT 
         RANDOM TEXT RANDOM TEXT RANDOM TEXT RANDOM TEXT RANDOM TEXT 
         RANDOM TEXT RANDOM TEXT RANDOM TEXT RANDOM TEXT RANDOM TEXT 
-    </div>
-</div>
+        </div> -->
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <img src="me3.png" alt="FILE NOT FOUND!">
+            </div>
+            <div class="rightsection">
+                YO! My name is <span class="color1">ADITYA GARG </span>
+                and I am a
+                <!-- <div>WEB DEV</div> -->
+                <span id="element"></span>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Assembly enthusiast', 'DSA beginer', 'Hardware enthusiast'],
+            typeSpeed: 30,
+        });
+    </script>
 
 
 
-    
 </body>
+
 </html>
