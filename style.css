@@ -100,6 +100,10 @@ nav{
     /* margin: 80px; */
 }
 
+.left{
+
+}
+
 .color1{
     color: blue;
 }
@@ -247,10 +251,10 @@ nav{
 
 
 @media screen and (max-width: 1053px) {
-    body{
+    /* body{
         background-color: red;
         background-image: none;
-    }
+    } */
 
     .firstsection{
         flex-direction: column;
